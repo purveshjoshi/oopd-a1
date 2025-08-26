@@ -41,6 +41,13 @@ Q3:
 
 As usual I first nmade the file q3.cpp and aslo the shell script for it.
 Then I made it executable
+
+For the code I first ask the user to enter the name and store it in a string.
+Then after taking the input I save it.
+Then it checks whether its a numeric or  not.
+If valid numeric then it print backs and asks for yes or no(confirmation).
+Then it will confirm or not confirm as per the user input.
+
 Then my build file invoked g++ to compile at first but it did not compile as it already contained basicIo as a header. I solve it by inspecting the first 20 lines of the header and tried building again.
 But then becuase writesrtuct type program does not exists so I have to change my code by using io. Then again some errors arise and I inspect and get rid of the error.
 

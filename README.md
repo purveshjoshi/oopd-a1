@@ -28,8 +28,23 @@ Then I made a file gitignore because we do not want a file containing *.o, *.out
 Then commited it to prevent the binaries
 
 Q2:
+
 So, now for Q2 I first made two directories include for the header files and source for the cpp files.
 After that I started to make two files Q2.cpp and  build_q2.sh for shell script.
 And then I made those script executable.
+
+After that my build command compiled my code and then I used ldd just to check if it was a dynamic or static.
+
+After that the usual, commiting and pushing.
+
+Q3:
+
+As usual I first nmade the file q3.cpp and aslo the shell script for it.
+Then I made it executable
+Then my build file invoked g++ to compile at first but it did not compile as it already contained basicIo as a header. I solve it by inspecting the first 20 lines of the header and tried building again.
+But then becuase writesrtuct type program does not exists so I have to change my code by using io. Then again some errors arise and I inspect and get rid of the error.
+
+Then I pushed and committed the files.
+
 
 

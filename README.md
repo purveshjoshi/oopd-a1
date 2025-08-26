@@ -1,4 +1,5 @@
 # oopd-a1
+Q1:
 
 I started first by creating a new repository on my firefox(linux).
 
@@ -25,5 +26,10 @@ Then I pushed it into git and did an apt update.
 
 Then I made a file gitignore because we do not want a file containing *.o, *.out,*.exe,a.out,q2,q3,.vscode/,*.swp
 Then commited it to prevent the binaries
+
+Q2:
+So, now for Q2 I first made two directories include for the header files and source for the cpp files.
+After that I started to make two files Q2.cpp and  build_q2.sh for shell script.
+And then I made those script executable.
 
 

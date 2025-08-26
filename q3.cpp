@@ -6,7 +6,7 @@
 extern "C" int main() {
     char name[100];
     char ageStr[10];
-    char confirm[5];   // bigger buffer for safety
+    char confirm[5];   
 
     io.outputstring("Enter your name: ");
     io.inputstring(name, sizeof(name));
@@ -14,7 +14,7 @@ extern "C" int main() {
     io.outputstring("Enter your age: ");
     io.inputstring(ageStr, sizeof(ageStr));
 
-    // validate age is a number
+    
     bool valid = true;
     for (int i = 0; ageStr[i] != '\0'; i++) {
         if (ageStr[i] < '0' || ageStr[i] > '9') {

@@ -21,5 +21,9 @@ git add q1.cpp
 git config --global user.name "purveshjoshi"
 git config --global user.email "joshipurvesh007@gmail.com"
 
-Then I pushed it into git.
+Then I pushed it into git and did an apt update.
+
+Then I made a file gitignore because we do not want a file containing *.o, *.out,*.exe,a.out,q2,q3,.vscode/,*.swp
+Then commited it to prevent the binaries
+
 
